@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
             listItem.textContent = taskText;
             
             // Configure the remove button
-            RemoveBtn.className = "remove-btn";
+            RemoveBtn.classList.add('remote-btn');
             RemoveBtn.textContent = "Remove";
             RemoveBtn.addEventListener("click", () => {
                 taskList.removeChild(listItem);
